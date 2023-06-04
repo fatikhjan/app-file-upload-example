@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>showFiles</title>
+</head>
+<body>
+
+<table>
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Size</th>
+        <th>Type</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="file : ${fileList}">
+        <td th:text="${file.getName()}"></td>
+        <td th:text="${file.size}"></td>
+        <td th:text="${file.type}"></td>
+    </tr>
+    </tbody>
+</table>
+
+
+</body>
+</html>

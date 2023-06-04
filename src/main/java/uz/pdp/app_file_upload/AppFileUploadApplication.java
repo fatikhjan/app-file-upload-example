@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class AppFileUploadApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(AppFileUploadApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(AppFileUploadApplication.class, args);
+    }
 
 }
